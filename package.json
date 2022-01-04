@@ -1,0 +1,58 @@
+{
+  "name": "static-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.20",
+    "@fortawesome/free-solid-svg-icons": "^5.10.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^4.4.0",
+    "@material-ui/icons": "^4.4.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "compression": "^1.7.4",
+    "css-loader": "^3.1.0",
+    "express": "^4.17.1",
+    "fetch-base64": "2.0.0",
+    "jquery": "^3.4.1",
+    "lazy-line-painter": "^1.9.6",
+    "popper.js": "^1.15.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.8.6",
+    "react-device-detect": "^1.7.5",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-particles-js": "^2.7.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "request": "2.81.0",
+    "resolve-url-loader": "^3.1.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp .htaccess ./build/.htaccess",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "purify-css": "^1.2.5"
+  }
+}
