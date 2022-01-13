@@ -1,0 +1,35 @@
+.terms__title {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.terms-section {
+    padding: 0 30px 50px;
+}
+
+.terms-section .terms-section__txt, .terms-section .terms-section__title {
+    line-height: 1.6;
+}
+
+.terms-section__number {
+    counter-reset: li;
+    list-style: none;
+}
+
+.terms-section__number li::before {
+    color: #37BB91;
+    content: counter(li);
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+
+.terms-section__number li {
+    counter-increment: li;
+    padding-left: 30px;
+    position: relative;
+}
+

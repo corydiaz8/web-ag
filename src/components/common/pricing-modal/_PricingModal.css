@@ -1,0 +1,42 @@
+#pricingRequestModal .modal-dialog {
+    max-width: 600px;
+    width: 100%;
+}
+
+#pricingRequestModal .modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#pricingRequestModal .modal-header {
+    border-bottom: none;
+    display: block;
+    padding-top: 43px;
+    position: relative;
+    text-align: center;
+}
+
+#pricingRequestModal .modal-header .close {
+    color: #37bb91;
+    font-size: 45px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#pricingRequestModal .subtitle {
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    max-width: 500px;
+}
+
+#pricingRequestModal .btn-ok {
+    border: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 12px auto;
+    padding: 18px 48px;
+}

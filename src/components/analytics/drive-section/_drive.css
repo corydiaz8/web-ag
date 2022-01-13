@@ -1,0 +1,60 @@
+.drive-section .max-w840 {
+    max-width: 840px;
+}
+
+.drive-section .max-w630 {
+    max-width: 630px;
+}
+
+.drive-section .drive-section__title {
+    margin-bottom: 18px;
+}
+
+.drive-section .drive-section__txt {
+    line-height: 1.2;
+    margin-bottom: 56px;
+}
+
+.drive-section .drive-section__svg {
+    height: 108px;
+    margin-bottom: 10px;
+}
+
+.drive-section .drive-section__svg .cls-white {
+    fill: #fff;
+}
+
+.drive-section .drive-section__svg .cls-darkBlue {
+    fill: #2a396b;
+}
+
+.drive-section .drive-section__svg .cls-strokeOpacity {
+    fill-opacity: 0;
+    stroke: #2b386b;
+    stroke-width: 0.15px;
+}
+
+.drive-section .drive-section__svg .cls-strokeOpacity75 {
+    fill-opacity: 0;
+    stroke: #2b386b;
+    stroke-width: 0.75px;
+}
+
+.drive-section .img_box-title {
+    margin-bottom: 19px;
+}
+
+.drive-section .img_box {
+    margin: 0 10px 30px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.drive-section .img_box-txt {
+    line-height: 1.4;
+    font-family: "Roboto", sans-serif;
+}
+
+.drive-section .img_box-title {
+    margin-bottom: 10px;
+}

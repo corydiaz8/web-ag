@@ -1,0 +1,86 @@
+.app-section {
+    padding-top: 55px;
+}
+
+.app-section .app-section__title {
+    margin-bottom: 70px;
+}
+
+.app-section .include__box {
+    padding-top: 10px;
+    margin-bottom: 110px;
+}
+.app-section .include__box>img {
+    margin-top: 10px;
+}
+
+.app-section .accordion-card .card {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.app-section .accordion-card .card-header {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.app-section .accordion-card .card-body {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 3px;
+    font-family: "Roboto", sans-serif;
+}
+
+.app-section .include__box-title {
+    margin-bottom: 10px;
+}
+
+.app-section .accordion-card .accordion-card__title {
+    border: none;
+    border-radius: 0;
+    color: #4A4A4A !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 25px;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.app-section .accordion-card .accordion-card__title img {
+    bottom: 0;
+    height: 18px;
+    margin: auto 0;
+    position: absolute;
+    right: -25px;
+    top: 0;
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    width: 18px;
+}
+
+.app-section .accordion-card .accordion-card__title.collapsed {
+    border-bottom: 1px dashed #37BB91;
+}
+
+.app-section .accordion-card .collapsed .arrow {
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+.app-section .accordion-card .card-bgcGreen {
+    background-color: rgba(48, 193, 147, .11);
+}

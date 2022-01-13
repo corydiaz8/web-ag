@@ -1,0 +1,63 @@
+.connected-section {
+    background-color: #fff;
+    line-height: 1.2;
+    padding: 20px 20px 16px;
+}
+
+.connected-section .connected-email {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(6, 8, 68, .44);
+    border-radius: 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 47px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 0 17px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: top;
+    width: 340px;
+}
+
+@media only screen and (max-width: 767px) {
+    .connected-section .connected-email::-webkit-input-placeholder {
+        text-align: center;
+    }
+    .connected-section .connected-email::-moz-placeholder {
+        text-align: center;
+    }
+    .connected-section .connected-email:-moz-placeholder {
+        text-align: center;
+    }
+    .connected-section .connected-email:-ms-input-placeholder {
+        text-align: center;
+    }
+
+}
+
+.connected-section .connected-email::placeholder {
+   font-family: "Roboto", sans-serif;
+}
+
+.connected-section .connected-btn {
+    background-color: #ffffff;
+    border: 1px solid #9293ad;
+    border-radius: 0;
+    color: #232937;
+    font-size: 16px;
+    height: 47px;
+    margin-bottom: 10px;
+    min-width: 122px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.connected-section .connected-btn:active,.connected-section .connected-btn.active {
+    background-color: #F8F8FA;
+}
+.connected-email{
+    margin-right: 5px;
+ }
+.connected-section .error-label {
+    display: block;
+    margin-left: 50px;
+}

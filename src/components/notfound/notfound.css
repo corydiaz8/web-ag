@@ -1,0 +1,29 @@
+#not-found {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#not-found .content {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#not-found .content .face {
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+#not-found .content h2 {
+    color: #3fba91;
+    margin-bottom: 20px;
+}
+
+#not-found .content p {
+    color: #2b386b;
+    margin-bottom: 40px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+}

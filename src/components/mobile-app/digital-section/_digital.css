@@ -1,0 +1,45 @@
+.digital-section {
+    background-color: #37BB91;
+    padding: 78px 30px 127px;
+}
+
+.digital-section .digital-section__title {
+    margin-bottom: 15px;
+}
+
+.digital-section .digital-section__txt {
+    line-height: 26px;
+    margin-bottom: 20px;
+    max-width: 470px;
+}
+
+.digital-section .btn__demo {
+    margin-bottom: 25px;
+}
+
+.digital-section .digital__list li {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 7px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.digital-section .digital__list li:before {
+    background-image: url("../../../assets/images/arrow.png") ;
+    border-radius:50% ;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 18px;
+    -webkit-background-size: cover;
+    background-size: 8px 6px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+
+}

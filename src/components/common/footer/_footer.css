@@ -1,0 +1,82 @@
+/*hover*/
+@media only screen and ( min-width: 767px ) {
+    .footer-list__item.social a:hover {
+        color: #37bb91;
+    }
+}
+
+@media only screen and ( min-width: 991px ) {
+    footer .footer-list__link:hover {
+        color: #ffffff;
+    }
+}
+
+footer {
+    background-color: #060844;
+    padding: 32px 120px 40px;
+}
+
+footer .footer-logo {
+    background: url("../../../assets/images/logo.svg") no-repeat center;
+    background-size: cover;
+    height: 42px;
+    margin-bottom: 17px;
+    width: 170px;
+    -webkit-background-size: cover;
+}
+
+footer .footer-list {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+footer .footer-list__link {
+    color: rgba(255,255,255,.8);
+    display: inline-block;
+    transition: all .3s ease;
+}
+footer .footer-list__link.c-white {
+    color: #ffffff;
+    cursor: default;
+}
+
+footer .footer-list__link.inline:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+footer .footer-list__item {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+footer .footer-list__item.mb-15px {
+    margin-bottom: 15px;
+}
+
+footer .right.footer-list .footer-list__item.social {
+    margin-bottom: 23px;
+}
+
+footer .footer-info {
+    margin-left: 100px;
+}
+
+footer .social-svg {
+    height: 30px;
+    margin-bottom: 8px;
+    width: 30px;
+}
+
+footer .heart-svg {
+    height: 15px;
+    width: 18px;
+}
+
+footer .social-svg .cls-1, footer .heart-svg .cls-1 {
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    fill: #fff;
+}

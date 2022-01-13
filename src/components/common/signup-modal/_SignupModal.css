@@ -1,0 +1,71 @@
+#signupModal .modal-dialog {
+    max-width: 600px;
+    width: 100%;
+}
+
+#signupModal .modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#signupModal .modal-header {
+    border-bottom: none;
+    display: block;
+    padding-top: 43px;
+    position: relative;
+    text-align: center;
+}
+
+#signupModal .modal-header .close {
+    color: #37bb91;
+    font-size: 45px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#signupModal .subtitle {
+    margin-bottom: 40px;
+}
+
+#signupModal .subtitle p {
+    margin-bottom: 10px;
+}
+
+#signupModal .follow-list__link {
+    align-items: center;
+    background-color: #2dbc90;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 5px;
+    width: 40px;
+}
+
+#signupModal .follow-list__icon {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+    height: 20px;
+    transition: -webkit-transform .15s linear 0s;
+    transition: transform .15s linear 0s;
+    transition: transform .15s linear 0s, -webkit-transform .15s linear 0s;
+    -o-transition: transform .15s linear 0s;
+    -webkit-transition: -webkit-transform .15s linear 0s;
+}
+
+#signupModal .follow-list__item {
+    display: inline-block;
+    margin: 5px;
+}
+
+#signupModal .btn-ok {
+    border: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 12px auto;
+    padding: 18px 48px;
+}

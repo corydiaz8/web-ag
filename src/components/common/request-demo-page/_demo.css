@@ -1,0 +1,257 @@
+#demoModal {
+    display: flex;
+    justify-content: center;
+    background: url("../../../assets/images/form_select.svg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    padding: 50px 20px;
+}
+
+#demoModal .modal-dialog {
+     max-width: 890px;
+     width: 100%;
+     margin: 0;
+ }
+
+#demoModal .modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#demoModal .modal-header {
+    border-bottom: none;
+    display: block;
+    padding-top: 43px;
+    position: relative;
+    text-align: center;
+}
+
+#demoModal .modal-header .close {
+    color: #37bb91;
+    font-size: 70px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#demoModal .modal-header__logo {
+    height: 101px;
+    margin-bottom: 30px;
+    width: 93px;
+}
+
+#demoModal .modal-body {
+    padding: 25px 80px;
+}
+
+#demoModal .new-form-demo .form-group {
+    margin-bottom: 10px;
+}
+
+#demoModal .new-form-demo .form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 2px;
+    height: 47px;
+}
+
+#demoModal .btn__demo {
+    border-radius: 2px;
+}
+
+#demoModal .new-form-demo .form-control:focus {
+    border-color: #37bb91;
+    box-shadow: none;
+}
+
+#demoModal .dropup-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 2px;
+    display: block;
+    height: 47px;
+    padding: 6px 50px 6px 17px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+#demoModal .dropup-btn:after {
+    background: url("../../../assets/images/arrow-down-green.svg") no-repeat center;
+    border: none;
+    bottom: 0;
+    content: "";
+    height: 13px;
+    margin: auto 0;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 22px;
+}
+
+#demoModal .dropup.show .dropup-btn {
+    border-color: #37bb91;
+}
+
+#demoModal .dropup.show .dropup-btn:after {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+#demoModal .dropup .dropdown-menu {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-bottom: none;
+    border-radius: 2px 0;
+    padding: 7px;
+    top: 1px !important;
+    width: 100%;
+}
+
+#demoModal .dropup .dropup-txt {
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 1.6;
+    margin-bottom: 0;
+    padding: 5px 18px;
+}
+#demoModal .dropup .dropup-txt:first-child{
+    cursor: default;
+}
+#demoModal .error-message {
+    background-color: #E54D61;
+    border: 1px solid #C33548;
+    border-radius: 0;
+    padding: 15px 17px;
+    margin-bottom: 16px;
+}
+#demoModal .success-message {
+    background-color: #37bb91;
+    border: 1px solid #0e8c64;
+    border-radius: 2px;
+    padding: 15px 17px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+#demoModal .error-message p:last-child{
+    margin-bottom: 0;
+}
+#demoModal .info {
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+}
+
+#demoModal .form-control::-webkit-input-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+#demoModal .form-control::-moz-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+#demoModal .form-control:-ms-input-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+#demoModal .form-control::-ms-input-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+#demoModal.form-control::placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+#demoModal .new-form-demo .form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 0;
+    height: 54px;
+    margin: 0;
+
+}
+.form-control-style  {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form-control-style fieldset legend{
+    display: none;
+}
+.form-control-style .MuiInputLabel-outlined.MuiInputLabel-shrink{
+    transform: translate(17px, 0px) scale(0.7);
+}
+.form-control-style input {
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.form-control-style label {
+    font-family: 'Roboto', sans-serif;
+}
+.form-control-style .MuiFormLabel-root.Mui-focused{
+    color: #778095;
+
+}
+.form-control-style .MuiInputBase-formControl .MuiOutlinedInput-notchedOutline{
+    border-color:#D8DDE6; ;
+}
+.form-control-style .MuiInputBase-formControl:hover .MuiOutlinedInput-notchedOutline{
+    border-color:#D8DDE6; ;
+}
+.form-control-style  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border: 1px solid #2DBC90 ;
+}
+.form-control-style  fieldset{
+    padding: 0;
+    height: 54px;
+    border-radius:0 ;
+}
+
+.form-control-style .MuiOutlinedInput-input{
+    padding: 0 10px 0 17px;
+}
+.form-control-style .MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(17px, 14px) scale(1);
+    pointer-events: none;
+}
+
+.form-control-style .error-filed .MuiInputBase-formControl .MuiOutlinedInput-notchedOutline,.error-filed{
+    border-color:#FF6060!important;
+}
+.form-control-style .error-filed label,.error-filed{
+    color: #FF6060!important;
+    opacity: 1;
+
+}
+.submit-btn{
+    width: 200px;
+}
+.default-color{
+    opacity: 0.65;
+}
+
+#demoModal .close-button{
+    position: relative;
+    top: 35px;
+    left: 200px;
+    color: #757575;
+}
+
+#demoModal .arrow-svg{
+    width: 16px;
+    height: 5px;
+    transform: rotate(90deg);
+}
+

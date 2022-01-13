@@ -1,0 +1,120 @@
+#demoModal .modal-dialog {
+    max-width: 890px;
+    width: 100%;
+}
+
+#demoModal .modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+#demoModal .modal-header {
+    border-bottom: none;
+    display: block;
+    padding-top: 43px;
+    position: relative;
+    text-align: center;
+}
+
+#demoModal .modal-header .close {
+    color: #37bb91;
+    font-size: 70px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#demoModal .modal-header__logo {
+    height: 101px;
+    margin-bottom: 30px;
+    width: 93px;
+}
+
+#demoModal .modal-body {
+    padding: 25px 80px;
+}
+
+#demoModal .new-form-demo .form-group {
+    margin-bottom: 20px;
+}
+
+#demoModal .new-form-demo .form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 2px;
+    height: 47px;
+}
+
+#demoModal .btn__demo {
+    border-radius: 2px;
+}
+
+#demoModal .new-form-demo .form-control:focus {
+    border-color: #37bb91;
+    box-shadow: none;
+}
+
+#demoModal .dropup-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 2px;
+    display: block;
+    height: 47px;
+    padding: 6px 50px 6px 17px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+#demoModal .dropup-btn:after {
+    background: url("../../../assets/images/arrow-down-green.svg") no-repeat center;
+    border: none;
+    bottom: 0;
+    content: "";
+    height: 13px;
+    margin: auto 0;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 22px;
+}
+
+#demoModal .dropup.show .dropup-btn {
+    border-color: #37bb91;
+}
+
+#demoModal .dropup.show .dropup-btn:after {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+#demoModal .dropup .dropdown-menu {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-bottom: none;
+    border-radius: 2px 0;
+    padding: 7px;
+    top: 1px !important;
+    width: 100%;
+}
+
+#demoModal .dropup .dropup-txt {
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 1.6;
+    margin-bottom: 0;
+    padding: 5px 18px;
+}
+
+#demoModal .error-message {
+    background-color: #E54D61;
+    border: 1px solid #C33548;
+    border-radius: 0;
+    padding: 15px 17px;
+}

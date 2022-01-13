@@ -1,0 +1,163 @@
+.revenue-section {
+    padding: 10px 50px 45px;
+}
+
+.revenue-section .max-w800 {
+    max-width: 800px;
+    width: 100%;
+}
+
+.revenue-section .revenue-section__txt {
+    line-height: 1.3;
+    margin-bottom: 23px;
+}
+
+.revenue-section .btn__demo {
+    border: 1px solid #ffffff;
+    margin-bottom: 45px;
+}
+
+.revenue-section .magnet-box {
+    max-width: 600px;
+}
+
+.revenue-section .magnet-box .magnet {
+    width: 288px;
+}
+
+.revenue-section .magnet-box .face-1 {
+    animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    right: 192px;
+    top: 0;
+}
+
+.revenue-section .magnet-box .face-2 {
+    animation-duration: 2.2s;
+    -moz-animation-duration: 2.2s;
+    -ms-animation-duration: 2.2s;
+    -o-animation-duration: 2.2s;
+    -webkit-animation-duration: 2.2s;
+    right: 86px;
+    top: 60px;
+}
+
+.revenue-section .magnet-box .face-3 {
+    animation-duration: 2.4s;
+    -moz-animation-duration: 2.4s;
+    -ms-animation-duration: 2.4s;
+    -o-animation-duration: 2.4s;
+    -webkit-animation-duration: 2.4s;
+    right: 12px;
+    top: 12px;
+}
+
+.revenue-section .magnet-box .face-4 {
+    animation-duration: 2.6s;
+    -moz-animation-duration: 2.6s;
+    -ms-animation-duration: 2.6s;
+    -o-animation-duration: 2.6s;
+    -webkit-animation-duration: 2.6s;
+    right: 168px;
+    top: 132px;
+}
+
+.revenue-section .magnet-box .face-5 {
+    animation-duration: 2.8s;
+    -moz-animation-duration: 2.8s;
+    -ms-animation-duration: 2.8s;
+    -o-animation-duration: 2.8s;
+    -webkit-animation-duration: 2.8s;
+    right: 0;
+    top: 132px;
+}
+
+.revenue-section .magnet-box .face {
+    animation-name: bounceInRight;
+    -moz-animation-name: bounceInRight;
+    -o-animation-name: bounceInRight;
+    -webkit-animation-name: bounceInRight;
+    animation-play-state: running;
+    -moz-animation-play-state: running;
+    -ms-animation-play-state: running;
+    -o-animation-play-state: running;
+
+    /*-webkit-animation-duration: 1s;*/
+    /*-moz-animation-duration: 1s;*/
+    /*-ms-animation-duration: 1s;*/
+    /*-o-animation-duration: 1s;*/
+    /*animation-duration: 1s;*/
+
+    -webkit-animation-play-state: running;
+    position: absolute;
+    visibility: visible;
+    width: 120px;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-moz-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(2000px);
+    }
+
+    60% {
+        -moz-transform: translateX(-20px);
+    }
+
+    80% {
+        -moz-transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+
+@-o-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(2000px);
+    }
+
+    60% {
+        -o-transform: translateX(-20px);
+    }
+
+    80% {
+        -o-transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+
+    60% {
+        transform: translateX(-20px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

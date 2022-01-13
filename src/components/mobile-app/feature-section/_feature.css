@@ -1,0 +1,32 @@
+.feature-section {
+    background: url("../../../assets/images/quote-bg.svg") no-repeat top;
+    background-size: cover;
+    padding: 230px 30px 165px;
+}
+
+.feature-section .feature-section__title {
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.feature-section h3.feature-section__title {
+    margin-bottom: 40px;
+}
+
+.feature-section .feature-section__txt {
+    line-height: 1.3;
+    margin-bottom: 27px;
+    font-family: "Roboto", sans-serif;
+}
+
+.feature-section .feature-section__txt:last-of-type {
+    margin-bottom: 23px;
+}
+
+.feature-section .btn-learn {
+    margin-bottom: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.feature-section .feature-section__diagram {
+    margin-top: 10px;
+}

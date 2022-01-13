@@ -1,0 +1,273 @@
+.price-section {
+    background: url(../../../assets/images/form_select.svg) no-repeat 50%;
+    background-size: cover;
+    padding: 50px 20px;
+    -webkit-background-size: cover;
+}
+
+.price-section .price-content {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 890px;
+    width: 100%;
+}
+
+.price-section .price-header {
+    border-bottom: none;
+    display: block;
+    padding-top: 43px;
+    position: relative;
+    text-align: center;
+}
+
+.price-section .price-header__logo {
+    height: 101px;
+    margin-bottom: 30px;
+    width: 93px;
+}
+
+.price-section .price-body {
+    padding: 25px 80px;
+}
+
+.price-section .price-info {
+    color: rgba(74, 74, 74, .6);
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.price-section .new-form-price .form-group {
+    margin-bottom: 10px;
+}
+
+.price-section .new-form-price .form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 0;
+    height: 54px;
+    margin: 0;
+
+}
+
+.price-section .new-form-price textarea.form-control {
+    height: auto;
+}
+
+.price-section .new-form-price textarea::placeholder {
+    color: #757575;
+}
+
+.price-section .new-form-price .btn__demo {
+    border-radius: 2px;
+}
+
+.price-section .new-form-price .form-control:focus {
+    border-color: #37bb91;
+    box-shadow: none;
+}
+
+.price-section .new-form-price .dropup-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-radius: 2px;
+    display: block;
+    height: 47px;
+    padding: 6px 50px 6px 17px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.price-section .new-form-price .dropup-btn:after {
+    background: url("../../../assets/images/arrow-down-green.svg") no-repeat center;
+    border: none;
+    bottom: 0;
+    content: "";
+    height: 13px;
+    margin: auto 0;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 22px;
+}
+
+.price-section .form-control::-webkit-input-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+.price-section .form-control::-moz-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+.price-section .form-control:-ms-input-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+.price-section .form-control::-ms-input-placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+.price-section .form-control::placeholder {
+    color: #4A4A4A;
+    opacity: 1;
+}
+
+.price-section .new-form-price .dropup.show .dropup-btn {
+    border-color: #37bb91;
+}
+
+.price-section .dropup.show .dropup-btn:after {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.price-section .dropup .dropdown-menu {
+    background-color: #FFFFFF;
+    border: 1px solid #D2D4D9;
+    border-bottom: none;
+    border-radius: 2px 0;
+    padding: 7px;
+    top: 1px !important;
+    width: 100%;
+}
+
+.price-section .dropup .dropup-txt {
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 1.6;
+    margin-bottom: 0;
+    padding: 5px 18px;
+}
+
+.price-section .new-form-price .error-label {
+    color: #37bb91;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.price-section .error-message p:last-child {
+    margin-bottom: 0;
+}
+
+.price-section .error-message {
+    background-color: #FF6060;
+    padding: 15px 17px;
+    margin-bottom: 16px;
+}
+
+.price-section .success-message {
+    background-color: #37bb91;
+    border: 1px solid #0e8c64;
+    border-radius: 2px;
+    padding: 15px 17px;
+    margin-bottom: 16px;
+}
+
+.price-section .info {
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+}
+
+
+.form-control-style fieldset legend {
+    display: none;
+}
+
+.form-control-style .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(17px, 0px) scale(0.7);
+}
+
+.form-control-style input {
+    height: 54px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form-control-style label {
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control-style .MuiFormLabel-root.Mui-focused {
+    color: #778095;
+
+}
+
+
+.form-control-style .MuiInputBase-formControl .MuiOutlinedInput-notchedOutline {
+    border-color: #D8DDE6;;
+}
+
+.form-control-style .MuiInputBase-formControl:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #D8DDE6;;
+}
+
+.form-control-style .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #2DBC90;
+}
+
+.form-control-style fieldset {
+    padding: 0;
+    height: 54px;
+    border-radius: 0;
+    top: 0;
+}
+.form-control-style .MuiInputLabel-formControl {
+    top: 5px;
+}
+
+.form-control-style {
+    height: 54px;
+}
+
+.form-control-style .MuiOutlinedInput-input {
+    padding: 0 10px 0 17px;
+}
+
+.form-control-style .MuiInputLabel-outlined {
+    z-index: 1;
+    transform: translate(17px, 14px) scale(1);
+    pointer-events: none;
+}
+
+
+.form-control-style .error-filed .MuiInputBase-formControl .MuiOutlinedInput-notchedOutline, .error-filed {
+    border-color: #FF6060 !important;
+}
+
+.form-control-style .error-filed label, .error-filed {
+    color: #FF6060 !important;
+}
+
+.submit-btn {
+    width: 200px;
+}
+
+.default-color {
+    opacity: 0.65;
+}
+
+.price-section .close-button {
+    position: relative;
+    top: 0;
+    color: #757575;
+}
+
+.price-section .arrow-svg {
+    width: 18px;
+    height: 9px;
+    transform: rotate(90deg);
+    fill: #757575;
+}

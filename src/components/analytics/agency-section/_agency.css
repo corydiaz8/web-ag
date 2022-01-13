@@ -1,0 +1,100 @@
+.agency-section {
+    background-color: #37bb91;
+    padding: 125px 30px 130px;
+}
+
+.agency-section .agency-box {
+    display: flex;
+    padding-top: 280px;
+    position: relative;
+
+}
+
+.agency-section .agency-message {
+    left: 0;
+    max-width: 446px;
+    min-height: 286px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.agency-section .agency-box__circle {
+    background: #d8d8d8 no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: inline-block;
+    height: 87px;
+
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 87px;
+    -webkit-background-size: cover;
+}
+
+.agency-section .agency-user {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    width: 100%;
+}
+
+.agency-section .agency-user__name, .agency-section .agency-user__role {
+    margin-bottom: 5px;
+}
+
+.agency-section .agency-message svg {
+    width: 446px;
+    height: 286px;
+}
+
+.agency-section .agency-message__txt {
+    left: 0;
+    line-height: 1.4;
+    padding: 55px 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.agency-section .agency-section__title {
+    font-weight: 400;
+    line-height: 1.32;
+    margin-bottom: 49px;
+}
+
+.agency-section .agency-section__digital {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.agency-section .agency-section__txt {
+    line-height: 1.2;
+    margin: 5px 20px 5px 0;
+    max-width: 344px;
+}
+
+.agency-section .btn__demo {
+    margin: 5px;
+}
+
+
+.agency-section .agency-message__txt:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -33px;
+    right: 55px;
+    border-left: 32px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 33px solid #ffffff;
+}
+
+

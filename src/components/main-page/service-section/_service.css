@@ -1,0 +1,120 @@
+.service-section {
+    padding-bottom: 50px;
+}
+
+.service-section .service-box {
+    background-color: #FFFFFF;
+    border: 2px solid #37BB91;
+    border-radius: 0;
+    margin: 120px 27px 30px;
+    max-width: 590px;
+    padding: 68px 31px 25px;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.service-section .service-box__circle {
+    align-items: center;
+    background-color: #37BB91;
+    border-radius: 50%;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    left: 28px;
+    position: absolute;
+    top: -72px;
+    width: 120px;
+}
+
+.service-section .service-box__buildings {
+    height: 118px;
+    position: absolute;
+    right: 0;
+    top: -118px;
+}
+
+.service-section .service-box__seaside {
+    height: 136px;
+    position: absolute;
+    right: 0;
+    top: -136px;
+}
+
+.service-section .service-box__title {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.service-section .service-box__txt {
+    line-height: 1.3;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    min-height: 70px;
+}
+
+.service-section .service-box__key {
+    border-top: 1px solid #D0D2DE;
+    padding-top: 20px;
+}
+
+.service-section .service-box__list {
+    margin-bottom: 30px;
+}
+
+.service-section .service-box__list li {
+    line-height: 1.2;
+    margin-bottom: 7px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.service-section .service-box__list li:before {
+    background: url("../../../assets/images/check-circle-solid.svg") no-repeat center;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 18px;
+    -webkit-background-size: contain;
+}
+
+.service-section .service-box__btn {
+    border-radius: 0;
+    min-width: 180px;
+    padding: 11px 12px;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.service-section .service-box__btn:active, .service-section .service-box__btn.active {
+    /*background-color: #27A37D;*/
+    color: #27A37D;
+    background-color: #fff;
+}
+
+.service-section .service-box__btn:focus {
+    box-shadow: none;
+}
+
+.service-section .service-box__btn.disabled, .service-section .service-box__btn:disabled {
+    background-color: #37BB91;
+    cursor: not-allowed;
+}
+.service-section .max-w840 {
+    max-width: 840px;
+}
+.service-section .section__title {
+    margin-bottom: 18px;
+}
+
+.service-section .section__txt {
+    line-height: 1.2;
+    margin-bottom: 56px;
+}
+.custom-text-position{
+    text-align: right;
+}

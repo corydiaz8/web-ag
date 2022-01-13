@@ -1,0 +1,12 @@
+.privacy__title {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.privacy-section {
+    padding: 0 30px 50px;
+}
+
+.privacy-section .privacy-section__txt, .privacy-section .privacy-section__title {
+    line-height: 1.6;
+}
